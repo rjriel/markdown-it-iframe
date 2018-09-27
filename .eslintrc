@@ -42,7 +42,6 @@ rules:
   no-empty-class:       2
   no-empty-label:       2
   no-else-return:       2
-  no-eq-null:           2
   no-ex-assign:         2
   no-extend-native:     2
   no-extra-bind:        2
@@ -95,12 +94,11 @@ rules:
   no-use-before-define: 2
   no-with:              2
   no-wrap-func:         2
-  quotes:               [ 2, single, avoid-escape ]
+  quotes:               [ 2, double, avoid-escape ]
   radix:                2
-  semi:                 2
+  semi:                 [ 2, never ]
   space-after-keywords: [ 2, always, , { "checkFunctionKeyword": true } ]
   space-before-blocks:  2
-  space-in-brackets:    [ 2, always, { propertyName: false } ]
   space-in-parens:      [ 2, never ]
   space-infix-ops:      2
   space-return-throw-case: 2
