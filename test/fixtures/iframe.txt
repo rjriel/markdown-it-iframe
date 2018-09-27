@@ -16,15 +16,6 @@ Dont Render on Codeblock
 </code></pre>
 .
 
-Checking for silent
-.
-Hey there, figure this out
-/i/https://www.youtube.com/embed/qkcx0kf6jME
-.
-<p>Hey there, figure this out
-/i/https://www.youtube.com/embed/qkcx0kf6jME</p>
-.
-
 
 In other content
 .
