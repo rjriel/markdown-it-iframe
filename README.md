@@ -1,8 +1,8 @@
 # markdown-it-iframe
 
-[![Build Status](https://img.shields.io/travis/markdown-it/markdown-it-iframe/master.svg?style=flat)](https://travis-ci.org/markdown-it/markdown-it-iframe)
+[![Build Status](https://img.shields.io/travis/rjriel/markdown-it-iframe/master.svg?style=flat)](https://travis-ci.org/rjriel/markdown-it-iframe)
 [![NPM version](https://img.shields.io/npm/v/markdown-it-iframe.svg?style=flat)](https://www.npmjs.org/package/markdown-it-iframe)
-[![Coverage Status](https://img.shields.io/coveralls/markdown-it/markdown-it-iframe/master.svg?style=flat)](https://coveralls.io/r/markdown-it/markdown-it-iframe?branch=master)
+[![Coverage Status](https://img.shields.io/coveralls/rjriel/markdown-it-iframe/master.svg?style=flat)](https://coveralls.io/r/rjriel/markdown-it-iframe?branch=master)
 
 > Iframe (`<iframe>`) tag plugin for [markdown-it](https://github.com/markdown-it/markdown-it) markdown parser.
 
