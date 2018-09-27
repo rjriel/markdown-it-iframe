@@ -43,6 +43,24 @@ var md = require('markdown-it')()
 md.render(/*...*/) // see example above
 ```
 
+`markdown-it-iframe` also supports the following options:
+
+```
+{
+    allowFullscreen: true,
+    width: 800,
+    height: 600,
+    frameborder: 1, // default: 0
+    renderIframe: false // default: true
+}
+```
+
+If you want to do a live preview of markdown rendering you will run into performance
+issues when the user is typing out a URL for the iframe. The reason for this is that
+markdown-it tries to render the URL being typed out with every keystroke. To combat this
+you can specify `renderIframe: false`. This will print a message with the markdown instead
+of the actual iframe.
+
 _Differences in browser._ If you load script directly into the page, without
 package system, module will add itself globally as `window.markdownitIframe`.
 
