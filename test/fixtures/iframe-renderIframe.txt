@@ -1,0 +1,8 @@
+renderIframe false:
+.
+/i/https://www.youtube.com/embed/qkcx0kf6jME
+.
+<p>
+iFrame rendering can be buggy, so please only render iframes when the URL is complete
+/i/https://www.youtube.com/embed/qkcx0kf6jME</p>
+.

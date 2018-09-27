@@ -47,7 +47,7 @@ md.render(/*...*/) // see example above
 
 ```
 {
-    allowFullscreen: true,
+    allowfullscreen: true,
     width: 800,
     height: 600,
     frameborder: 1, // default: 0

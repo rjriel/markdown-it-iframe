@@ -1,0 +1,8 @@
+Render iframe with options:
+.
+/i/https://www.youtube.com/embed/qkcx0kf6jME
+.
+<div class="iframe-container">
+<iframe allowfullscreen="true" frameborder="1" width="800" height="600" src="https://www.youtube.com/embed/qkcx0kf6jME"></iframe>
+</div>
+.

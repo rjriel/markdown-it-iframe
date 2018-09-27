@@ -6,3 +6,44 @@ Basic example:
 <iframe frameborder="0" src="https://www.youtube.com/embed/qkcx0kf6jME"></iframe>
 </div>
 .
+
+
+Dont Render on Codeblock
+.
+    /i/https://www.youtube.com/embed/qkcx0kf6jME
+.
+<pre><code>/i/https://www.youtube.com/embed/qkcx0kf6jME
+</code></pre>
+.
+
+Checking for silent
+.
+Hey there, figure this out
+/i/https://www.youtube.com/embed/qkcx0kf6jME
+.
+<p>Hey there, figure this out
+/i/https://www.youtube.com/embed/qkcx0kf6jME</p>
+.
+
+
+In other content
+.
+# hey there
+/i/https://www.youtube.com/embed/qkcx0kf6jME
+.
+<h1>hey there</h1>
+<div class="iframe-container">
+<iframe frameborder="0" src="https://www.youtube.com/embed/qkcx0kf6jME"></iframe>
+</div>
+.
+
+
+No colon in content
+.
+/i/http
+
+/i/
+.
+<p>/i/http</p>
+<p>/i/</p>
+.
