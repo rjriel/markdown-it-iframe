@@ -1,0 +1,27 @@
+{
+  "name": "markdown-it-iframe",
+  "main": "dist/markdown-it-frame.js",
+  "homepage": "https://github.com/rjriel/markdown-it-iframe",
+  "description": "<iframe> tag for markdown-it markdown parser.",
+  "keywords": [
+    "markdown-it-plugin",
+    "markdown-it",
+    "markdown",
+    "iframe"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "benchmark",
+    "bower_components",
+    "coverage",
+    "demo",
+    "docs",
+    "lib",
+    "node_modules",
+    "support",
+    "test",
+    "Makefile",
+    "index*"
+  ]
+}
