@@ -31,7 +31,7 @@ browserify:
 		./node_modules/.bin/browserify ./ -s markdownitIframe \
 		) > dist/markdown-it-iframe.js
 	# Minify
-	./node_modules/.bin/uglifyjs dist/markdown-it-iframe.js -b beautify=false,ascii-only=true -c -m \
+	./node_modules/.bin/uglifyjs dist/markdown-it-iframe.js -b beautify=false,ascii_only=true -c -m \
 		--preamble "/*! ${NPM_PACKAGE} ${NPM_VERSION} ${GITHUB_PROJ} @license MIT */" \
 		> dist/markdown-it-iframe.min.js
 
