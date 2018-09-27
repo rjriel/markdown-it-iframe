@@ -41,6 +41,7 @@ module.exports = function iframe_plugin(md, options) {
       return false
     }
 
+    /* istanbul ignore else */
     if (!silent) {
       if (options.renderIframe) {
         token = state.push("div_open", "div", 1)
