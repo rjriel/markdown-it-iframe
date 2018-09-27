@@ -23,8 +23,8 @@
   },
   "devDependencies": {
     "browserify": "*",
-    "coveralls": "^2.11.2",
-    "eslint": "0.10.2",
+    "coveralls": "^3.0.2",
+    "eslint": "^5.6.0",
     "eslint-plugin-nodeca": "^1.0.0",
     "istanbul": "*",
     "markdown-it": "^5.0.3",
