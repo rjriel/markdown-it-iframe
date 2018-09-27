@@ -4,6 +4,7 @@
 
 module.exports = function iframe_plugin(md, options) {
   const attrs = []
+  options = options || {}
 
   if (options.renderIframe == null) {
     options.renderIframe = true
